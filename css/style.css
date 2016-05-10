@@ -1,0 +1,63 @@
+.contenedor{
+    max-width: 1080px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+nav{
+    overflow: auto;
+    height: 87px;
+    background-color: #2b3e4f;
+    display: flex;
+    align-content: center;
+}
+
+    
+nav ul{
+    float: right;
+    display: inline;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    padding: 0px 13px;
+}
+
+nav h1{
+    
+    display: inline;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.flex-align{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.barra{
+    width: 250px;
+}
+
+header{
+    height: 800px;
+    background-color: aquamarine;
+}
+
+.avatar {
+    width: 372px;
+    border: grey 5px solid;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    top: 132px;
+    position: relative;
+}
